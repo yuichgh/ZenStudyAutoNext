@@ -8,7 +8,7 @@ ZEN Studyの授業動画を再生終了時に自動で次に進めてくれま�
 
 ## インストール方法
 
-1. [Release](https://github.com/yuichgh/ZenStudyAutoNext/releases) から `.dmg` をダウンロードして開きます。
+1. 最新の [Release](https://github.com/yuichgh/ZenStudyAutoNext/releases) から `.dmg` をダウンロードして開きます。
 2. `ZenStudy-Auto-Next-extension.app` を `Applications` にドラッグします。
 3. Safariの「設定 → 詳細」でWebデベロッパ向け機能を表示し、「デベロッパ → 未署名の機能拡張を許可」をオンにします。
 4. Applicationsからアプリを一度起動し、Safariの「設定 → 機能拡張」で有効にします。
