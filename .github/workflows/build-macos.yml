@@ -147,6 +147,5 @@ jobs:
               --target "$GITHUB_SHA" \
               --title "ZenStudyAutoNext Build #$GITHUB_RUN_NUMBER" \
               --generate-notes \
-              --notes "Automatic development build without Developer ID or notarization. For Safari Developer settings, enable unsigned extensions. If the macOS host app does not register, extract ZenStudyAutoNext-Safari-Temporary-Extension.zip and select the extracted folder with Add Temporary Extension in Safari Developer settings (where supported)." \
-              --prerelease
+              --notes "Automatic development build without Developer ID or notarization. For Safari Developer settings, enable unsigned extensions. If the macOS host app does not register, extract ZenStudyAutoNext-Safari-Temporary-Extension.zip and select the extracted folder with Add Temporary Extension in Safari Developer settings (where supported)."
           fi
