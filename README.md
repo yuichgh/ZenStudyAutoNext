@@ -15,22 +15,6 @@ ZEN Studyの授業動画を再生終了時に自動で次に進めてくれま�
 
 **注意:** DMG化はAppleの署名・公証の代替ではありません。Gatekeeperにより起動を拒否されたり、Safariに拡張が表示されない場合があります。
 
-## ファイル構成
-
-```text
-ZenStudy-Auto-Next-extension.xcodeproj/       Xcode プロジェクト
-ZenStudy-Auto-Next-extension/                 macOS アプリとアイコン
-ZenStudy-Auto-Next-extension Extension/
-  Resources/
-    manifest.json                           権限と読み込み設定
-    core.js                                 動画一覧の判定
-    content.js                              終了検知・遷移処理
-    popup.html / popup.css / popup.js        設定画面
-tests/core.test.cjs                          判定ロジックのテスト
-```
-
-拡張機能のソースは `Resources` 配下が正本です。変更後は Xcode で再ビルドし、授業ページを再読み込みしてください。
-
 ## 権限・データ
 
 `storage` は設定保存用、`nnn.ed.nico` のホスト権限は動画と一覧の操作用です。拡張ソースは独自サーバーへのデータ送信を行いません。
